@@ -1,7 +1,34 @@
 :root {
-    --main-background: #ffffff;
+    --theme-l5: #f9fdfc;
+    --theme-l4: #eaf8f6;
+    --theme-l3: #d5f2ee;
+    --theme-l2: #c1ebe5;
+    --theme-l1: #ace4dd;
+    --theme: #97ddd4;
+    --theme-d1: #7bd4c8;
+    --theme-d2: #5fcbbd;
+    --theme-d3: #43c2b1;
+    --theme-d4: #37a999;
+    --theme-d5: #2e8d80;
+    --fg-text-color: #ffffff;
+    --bg-text-color: #000000;
 }
 
+/* Global Rulings */
 html {
     font-family: 'Lato', sans-serif;
+}
+
+h4, h5, p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: var(--theme-d3);
+    color: #ffffff;
+}
+
+header a{
+    text-decoration: none;
 }

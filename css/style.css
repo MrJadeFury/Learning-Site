@@ -1,4 +1,4 @@
-:root {
+:root{
     --theme-l5: #f9fdfc;
     --theme-l4: #eaf8f6;
     --theme-l3: #d5f2ee;
@@ -15,20 +15,70 @@
 }
 
 /* Global Rulings */
-html {
+html{
     font-family: 'Lato', sans-serif;
 }
 
-h4, h5, p {
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: var(--theme-l3);
+}
+
+h4, h5, p{
     font-family: 'PT Sans', sans-serif;
 }
 
+.sub-container{
+    width: 80%;
+    margin: auto;
+}
+
 /* Header */
-header {
+header{
     background-color: var(--theme-d3);
     color: #ffffff;
+    padding-top: 20px;
+    min-height: 70px;
+    margin: 0;
+    border-bottom: var(--theme-d5) 5px solid;
+}
+
+header h1{
+    padding: 0;
+    margin: 0;
 }
 
 header a{
     text-decoration: none;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 15px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header #branding h1 span{
+    color: var(--theme-l2);
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a{
+    color: var(--theme-l2);
+    font-weight: bold;
 }
